@@ -1,0 +1,68 @@
+html { scroll-behavior: smooth; overflow-x: hidden; }
+
+.carousel-indicators [data-bs-target] {
+    height: 10px !important;
+}
+nav{
+    margin-bottom: 20px;
+}
+.navbar{
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+main{
+    margin-top: 120px;
+}
+
+.btn{
+    background: #fff !important;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: #fff !important;
+    background: #000 !important;
+}
+.container{
+    position: relative;
+}
+.backdrop{
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+
+}
+.btn-primary{
+    transition: 0.5s;
+    color: #fff !important;
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;
+    padding: 10px 15px;
+}
+.loading{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    background-color: #000;
+    padding: 35px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.footer__div{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (max-width:425px){
+    
+}
